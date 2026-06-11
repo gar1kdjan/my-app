@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 
 export const MyComponent = () => {
-	const date = new Date();
+	const date = useMemo(() => new Date(), []);
 
 	useEffect(() => {
 		console.log(date);
