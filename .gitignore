@@ -16,7 +16,6 @@
 .env.local
 .env.development.local
 .env.test.local
-open-browser.js
 .env.production.local
 
 npm-debug.log*
